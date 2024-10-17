@@ -14,5 +14,8 @@ export default [
     rules: {
          "no-console": "error"
     }
- }
+ },
+ {
+  ignores: ["webpack/webpack.config.js"]
+ } 
 ];
