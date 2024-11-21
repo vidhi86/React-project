@@ -1,13 +1,16 @@
-
+import NavBar from './components/Navbar';
 import './App.css';
-import Welcome from './welcome';
+import AllRoutes from './pages/AllRoutes';
+import Footer from './components/footer';
+
+
 
 function App() {
-
-   console.log('yes')
   return (
     <div className="App">
-      <Welcome/>
+     <NavBar/>
+     <AllRoutes/>
+     <Footer/>
     </div>
   );
 }
